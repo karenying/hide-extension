@@ -7,10 +7,10 @@
     "128": "assets/icon.png"
   },
   "description": "Hides distracting elements",
-  "permissions": ["https://weather.com/"],
+  "permissions": ["https://weather.com/", "https://www.linkedin.com/*"],
   "content_scripts": [
     {
-      "matches": ["https://weather.com/"],
+      "matches": ["https://weather.com/", "https://www.linkedin.com/*"],
       "js": ["js/contentScript.js"]
     }
   ],
